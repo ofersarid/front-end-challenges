@@ -1,10 +1,5 @@
 import React from 'react';
-
 import { storiesOf } from '@storybook/react';
-// import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
-
-import { Button, Welcome } from '@storybook/react/demo';
 
 storiesOf('Profile Image Challenge', module).add('Read Me', () => (
   <div>
@@ -20,24 +15,25 @@ storiesOf('Profile Image Challenge', module).add('Read Me', () => (
       </li>
       <li>
         <div>For the image profile-1.jpg inside the public folder it should look like this:</div>
-        <img src="/profile-mock.png" />
+        <img src="/profile-mock.png" alt="" />
       </li>
       <li>
         <div>For a none available image it will show:</div>
-        <img src="/image-not-available.png" />
+        <img src="/image-not-available.png" alt="" />
       </li>
       <li>
         <div>On click will animate to this:</div>
-        <img src="/on-click.png" />
+        <img src="/on-click.png" alt="" />
       </li>
       <li>
         <div>On hover will animate a tooltip that shows the user’s name:</div>
-        <img src="/on-hover-tooltip.png" />
+        <img src="/on-hover-tooltip.png" alt="" />
+        <div>(use the already installed <a href="https://www.npmjs.com/package/react-tooltip" >react-tooltip</a>
+          package)
+        </div>
       </li>
     </ol>
   </div>
-)).add('profile image comp', () => {
-  return (
-    <div>Your component Here</div>
-  )
-});
+)).add('profile image comp', () => (
+  <div>Your component Here</div>
+));

@@ -6,11 +6,13 @@
     "@storybook/addon-options": "^3.3.10",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts": "1.1.0",
+    "react-tooltip": "^3.4.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "lint-watch": "esw -w ./src"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.10",
@@ -24,6 +26,10 @@
     "node-sass": "4.7.2",
     "react-redux": "5.0.6",
     "react-scripts": "1.0.13",
-    "sass-loader": "6.0.6"
+    "sass-loader": "6.0.6",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.4.0",
+    "extract-text-webpack-plugin": "2.1.2"
   }
 }
