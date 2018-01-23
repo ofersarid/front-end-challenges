@@ -7,6 +7,9 @@
 * go to Read Me story (first one) and get the details for this challenge
 * save your work to a `myName.patch` file and send via email.
 
+##### Demo #####
+https://ofersarid.github.io/front-end-challenges/
+
 ##### Who do I talk to? #####
 
 * Ofer Sarid - front end architect @Recongate
