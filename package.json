@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@storybook/addon-options": "^3.3.10",
+    "@storybook/storybook-deployer": "^2.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
@@ -12,24 +13,25 @@
   "scripts": {
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
+    "deploy-storybook": "storybook-to-ghpages",
     "lint-watch": "esw -w ./src"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.3.10",
-    "@storybook/addon-links": "^3.3.10",
-    "@storybook/react": "^3.3.10",
+    "@storybook/addon-actions": "3.3.10",
+    "@storybook/addon-links": "3.3.10",
+    "@storybook/react": "3.3.10",
     "babel-eslint": "6.0.0",
     "babel-loader": "7.1.2",
     "eslint": "4.8.0",
     "eslint-config-airbnb": "15.1.0",
-    "eslint-watch": "3.1.2",
-    "node-sass": "4.7.2",
-    "react-redux": "5.0.6",
-    "react-scripts": "1.0.13",
-    "sass-loader": "6.0.6",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.4.0",
-    "extract-text-webpack-plugin": "2.1.2"
+    "eslint-watch": "3.1.2",
+    "extract-text-webpack-plugin": "2.1.2",
+    "node-sass": "4.7.2",
+    "react-redux": "5.0.6",
+    "react-scripts": "1.0.13",
+    "sass-loader": "6.0.6"
   }
 }
