@@ -28,7 +28,7 @@ storiesOf('Profile Image Challenge', module).add('Read Me', () => (
       <li>
         <div>On hover will animate a tooltip that shows the user’s name:</div>
         <img src="/on-hover-tooltip.png" alt="" />
-        <div>(use the already installed <a href="https://www.npmjs.com/package/react-tooltip" >react-tooltip</a>
+        <div>(use the already installed <a href="https://www.npmjs.com/package/react-tooltip" >react-tooltip</a>&nbsp;
           package)
         </div>
       </li>
