@@ -20,6 +20,7 @@ storiesOf('Profile Image Challenge', module).add('Read Me', () => (
       <li>
         <div>For a none available image it will show:</div>
         <img src="/image-not-available.png" alt="" />
+        <div>(text should be real text - not an image)</div>
       </li>
       <li>
         <div>On click will animate to this:</div>
@@ -28,7 +29,8 @@ storiesOf('Profile Image Challenge', module).add('Read Me', () => (
       <li>
         <div>On hover will animate a tooltip that shows the user’s name:</div>
         <img src="/on-hover-tooltip.png" alt="" />
-        <div>(use the already installed <a href="https://www.npmjs.com/package/react-tooltip" >react-tooltip</a>&nbsp;
+        <div>(use the already installed&nbsp;
+          <a href="https://www.npmjs.com/package/react-tooltip" target="blank">react-tooltip</a>&nbsp;
           package)
         </div>
       </li>
