@@ -67,6 +67,6 @@ storiesOf('Text Area Challenge', module).add('Read Me', () => (
     </ol>
     <iframe src="https://drive.google.com/file/d/0B44JvAgVgFegSjVHbG1CZHBxNm8/preview" width="640" height="480"></iframe>
   </div>
-)).add('profile image comp', () => (
+)).add('text area comp', () => (
   <div>Your component Here</div>
 ));
