@@ -5,7 +5,7 @@
 * Run: `yarn storybook`
 * Open your browser at: [localhost](http://localhost:9009/)
 * go to Read Me story (first one) and get the details for this challenge
-* save your work to your own branch and commit/push it once you are finished
+* save your work to the `answer` branch a pull request from github
 
 ##### Who do I talk to? #####
 
