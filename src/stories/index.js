@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-storiesOf('Profile Image Challenge', module).add('Read Me', () => (
+storiesOf('Profile Image', module).add('Read Me', () => (
   <div>
-    <h1>Profile image component Challenge</h1>
+    <h1>Profile Image</h1>
     <ol>
       <li>
         <div>Create a profile image component that accepts 3 properties -</div>
@@ -37,12 +37,15 @@ storiesOf('Profile Image Challenge', module).add('Read Me', () => (
     </ol>
   </div>
 )).add('profile image comp', () => (
-  <div>Your component Here</div>
+  <div>
+    <h1>Profile Image</h1>
+    <div>Your component Here</div>
+  </div>
 ));
 
-storiesOf('Text Area Challenge', module).add('Read Me', () => (
+storiesOf('Text Area', module).add('Read Me', () => (
   <div>
-    <h1>Text area component Challenge</h1>
+    <h1>Text Area</h1>
     <ol>
       <li>
         this component has a min and max number of rows. If input exceeds the max amount of rows a scrollbar will
@@ -65,8 +68,12 @@ storiesOf('Text Area Challenge', module).add('Read Me', () => (
         this you will need to think outside of the box - this is not a naive textarea solution)
       </li>
     </ol>
-    <iframe src="https://drive.google.com/file/d/0B44JvAgVgFegSjVHbG1CZHBxNm8/preview" width="640" height="480"></iframe>
+    <iframe src="https://drive.google.com/file/d/0B44JvAgVgFegSjVHbG1CZHBxNm8/preview" width="640"
+            height="480" ></iframe>
   </div>
 )).add('text area comp', () => (
-  <div>Your component Here</div>
+  <div>
+    <h1>Text Area</h1>
+    <div>Your component Here</div>
+  </div>
 ));

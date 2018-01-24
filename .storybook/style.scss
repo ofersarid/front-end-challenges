@@ -9,11 +9,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 20px;
-  use React
+  padding: 60px 20px 20px;
   h1 {
     font-weight: 100;
-    font-size: 24px;
+    position: fixed;
+    top: 0;
+    background: #2c2c2c;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    padding: 10px 20px;
+    font-size: 20px;
   }
   ol > li {
     margin-bottom: 20px;
