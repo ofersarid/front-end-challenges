@@ -21,8 +21,11 @@
     padding: 10px 20px;
     font-size: 20px;
   }
-  ol > li {
-    margin-bottom: 20px;
+  ol, ul {
+    padding: 0 0 0 20px;
+    & > li {
+      margin-bottom: 20px;
+    }
   }
   a {
     color: #4eb9f7;
