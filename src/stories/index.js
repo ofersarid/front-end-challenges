@@ -68,8 +68,12 @@ storiesOf('Text Area', module).add('Read Me', () => (
         this you will need to think outside of the box - this is not a naive textarea solution)
       </li>
     </ol>
-    <iframe src="https://drive.google.com/file/d/0B44JvAgVgFegSjVHbG1CZHBxNm8/preview" width="640"
-            height="480" ></iframe>
+    <iframe
+      src="https://drive.google.com/file/d/0B44JvAgVgFegSjVHbG1CZHBxNm8/preview"
+      width="640"
+      height="480"
+      title="textarea-movie"
+    />
   </div>
 )).add('text area comp', () => (
   <div>
