@@ -67,6 +67,9 @@ storiesOf('Text Area', module).add('Read Me', () => (
         Please notice that there should be no text “jumps” and that is what makes this a senior challenge (to achieve
         this you will need to think outside of the box - this is not a naive textarea solution)
       </li>
+      <li>
+        save your work to a <span className="code">myName.patch</span> file and send via email.
+      </li>
     </ol>
     <iframe
       src="https://drive.google.com/file/d/0B44JvAgVgFegSjVHbG1CZHBxNm8/preview"
